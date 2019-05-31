@@ -1,0 +1,20 @@
+body {
+  background-image: url("https://media1.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
+}
+
+.ohh img {
+  size: 40%;
+padding-left: 5%;
+}
+
+button {
+  font-size: 200%;
+  padding-left: 17%;
+  padding-top: 10%;
+}
+
+div1 {
+  margin-left: 37%;
+}
