@@ -37,3 +37,23 @@ for (p in ashpokemon) {
 section2.style.display = 'grid'
 section2.style.gridTemplate = 'repeat(1, 500px) / repeat(3, 33%)'
 section2.style.gridGap = '1%'
+
+let section3 = document.getElementById('section3')
+let alpokemon = ['658','392','133']
+
+for (p in alpokemon) {
+  let aldanediv = document.createElement('div')
+  // div.style.backgroundImage = `url('https://www.smashbros.com/assets_v2/img/fighter/${fighters[f]}/main.png')`
+  aldanediv.style.backgroundImage = `url('https://assets.pokemon.com/assets/cms2/img/pokedex/full/${alpokemon[p]}.png')`
+  aldanediv.style.backgroundSize = 'contain'
+  aldanediv.style.backgroundRepeat = 'no-repeat'
+  aldanediv.style.border = ''
+  aldanediv.style.height = '200px'
+  aldanediv.style.margin = '20%'
+  section3.appendChild(aldanediv)
+
+}
+
+section3.style.display = 'grid'
+section3.style.gridTemplate = 'repeat(1, 500px) / repeat(3, 33%)'
+section3.style.gridGap = '1%'
