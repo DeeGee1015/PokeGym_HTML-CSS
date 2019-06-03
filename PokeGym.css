@@ -3,7 +3,7 @@ body{
 background-image: url("https://media1.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif");
 background-repeat: no-repeat;
 background-size: 100% 150%;
-
+background-color: red;
 }
 .ohh img {
   size: 40%;
@@ -60,5 +60,5 @@ padding-left: 0;
 }
 
 section {
-  height: 800px;
+  height: 700px;
 }
