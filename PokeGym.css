@@ -2,8 +2,7 @@ body{
 
 background-image: url("https://media1.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif");
 background-repeat: no-repeat;
-background-size: 100% 150%;
-background-color: red;
+background-size: 100% 100%;
 }
 .ohh img {
   size: 40%;
@@ -17,7 +16,7 @@ button {
 }
 
 div1 {
-  margin-left: 37%;
+  margin-left: 45%;
 }
 
 .topnav {
