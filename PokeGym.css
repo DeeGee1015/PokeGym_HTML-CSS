@@ -5,7 +5,11 @@ background-size: 100% 100%;
 }
 .ohh img {
 size: 40%;
-padding-left: 5%;
+padding-left: 25%;
+}
+
+.daam img {
+  padding-left: 29%;
 }
 
 button {
@@ -56,11 +60,15 @@ padding-left: 50%;
 length: 10%;
 width:20%;
 height:60%;
-margin-left: -2%;
+margin-left: 2%;
 }
 
 section{
 display: grid;
 grid-template: auto / 25% 24% 24% 24%;
 grid-gap: 1%;
+}
+
+img {
+  width: 40%;
 }
