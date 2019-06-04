@@ -1,20 +1,66 @@
-body {
-  background-image: url("https://media1.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif");
-  background-repeat: no-repeat;
-  background-size: 100% 150%;
+body{
+background-image: url("https://media1.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif");
+background-repeat: no-repeat;
+background-size: 100% 100%;
 }
-
 .ohh img {
-  size: 40%;
+size: 40%;
 padding-left: 5%;
 }
 
 button {
-  font-size: 200%;
-  padding-left: 17%;
-  padding-top: 10%;
+font-size: 200%;
+padding-left: 17%;
+padding-top: 10%;
 }
 
 div1 {
-  margin-left: 37%;
+margin-left: 45%;
+}
+
+.topnav {
+background-color: transparent;
+overflow: hidden;
+text-align: center;
+padding: center;
+
+}
+
+
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+]
+.topnav a.active {
+color: white;
+text-align: center;
+padding-left: 50%;
+}
+
+
+}
+
+#section11 {
+length: 10%;
+width:20%;
+height:60%;
+margin-left: -2%;
+}
+
+section{
+display: grid;
+grid-template: auto / 25% 24% 24% 24%;
+grid-gap: 1%;
 }
